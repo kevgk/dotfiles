@@ -1,0 +1,103 @@
+{
+  // Window
+  "window.titleBarStyle": "custom",
+  "window.menuBarVisibility": "toggle",
+  "window.zoomLevel": 0,
+
+  // Workbench
+  "workbench.colorTheme": "Gruvbox Material Dark",
+  "workbench.editor.showTabs": true,
+  "workbench.sideBar.location": "left",
+  "workbench.activityBar.visible": true,
+  "workbench.iconTheme": "material-icon-theme",
+
+  // Editor
+  "editor.fontFamily": "IBM Plex Mono, FiraCode NF, Consolas, monospace",
+  "editor.fontLigatures": true,
+  "editor.suggestFontSize": 10,
+  "editor.fontSize": 15,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "selection",
+  "editor.renderLineHighlight": "all",
+  "editor.mouseWheelZoom": true,
+  "editor.formatOnSave": true,
+  "editor.padding.top": 20,
+  "editor.parameterHints.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.emptySelectionClipboard": false,
+  "editor.minimap.enabled": true,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.renderCharacters": false,
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "editor.rulers": [
+    {
+      "column": 80
+    }
+  ],
+
+  // Explorer
+  "explorer.openEditors.visible": 0,
+  "explorer.confirmDragAndDrop": true,
+  "explorer.compactFolders": false,
+  "explorer.decorations.badges": true,
+  "explorer.decorations.colors": false,
+
+  // Terminal
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontFamily": "IBM Plex Mono, monospace",
+  "terminal.integrated.fontWeightBold": "normal",
+  "terminal.integrated.rendererType": "experimentalWebgl",
+
+  // Zenmode
+  "zenMode.fullScreen": false,
+  "zenMode.hideStatusBar": false,
+  "zenMode.hideTabs": false,
+
+  // Icons
+  "material-icon-theme.opacity": 0.5,
+  "material-icon-theme.saturation": 0,
+  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.activeIconPack": "react",
+  "material-icon-theme.folders.theme": "classic",
+
+  // Language
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // Extensions
+  "extensions.ignoreRecommendations": false,
+  "todo-tree.tree.showScanModeButton": false,
+  "bracket-pair-colorizer-2.colors": [
+    "#7c6f64",
+    "#a89984",
+    "#d5c4a1",
+    "#8ec07c",
+    "#83a598",
+    "#d3869b",
+    "#fb4934",
+    "#fe8019",
+    "#fabd2f",
+    "#b8bb26"
+  ],
+
+  // Telemetry
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+
+  // Misc
+  "diffEditor.ignoreTrimWhitespace": true,
+  "references.preferredLocation": "view",
+  "emmet.showAbbreviationSuggestions": false,
+  "files.trimTrailingWhitespace": true,
+  "emmet.includeLanguages": {
+    "html": "html",
+    "javascript": "javascriptreact"
+  }
+}
+
